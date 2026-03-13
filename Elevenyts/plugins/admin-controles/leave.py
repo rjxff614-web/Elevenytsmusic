@@ -1,19 +1,7 @@
-# ==============================================================================
-# leave.py - Force Leave Commands (Sudo Only)
-# ==============================================================================
-# This plugin allows sudo users to make the bot and assistants leave chats.
-#
-# Commands:
-# - /leave - Make bot and assistant leave the current chat
-# - /leaveall - Make all assistants leave all inactive chats
-#
-# Only sudo users can use these commands.
-# ==============================================================================
-
 import asyncio
 from pyrogram import filters, types, errors, enums
 
-from HasiiMusic import app, db, lang, logger, userbot, config
+from Elevenyts import app, db, lang, logger, userbot, config
 
 
 @app.on_message(filters.command(["leave"]) & app.sudo_filter)
