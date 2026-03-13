@@ -1,22 +1,9 @@
-# ==============================================================================
-# pause.py - Pause Playback Command
-# ==============================================================================
-# This plugin handles pausing the current voice chat playback.
-#
-# Commands:
-# - /pause - Pause current playback
-#
-# Requirements:
-# - User must be admin or authorized user
-# - Music must be currently playing
-# ==============================================================================
-
 import logging
 from pyrogram import filters, types
 from pyrogram.errors import ChatSendPlainForbidden, ChatWriteForbidden
 
-from HasiiMusic import tune, app, db, lang
-from HasiiMusic.helpers import buttons, can_manage_vc
+from Elevenyts import tune, app, db, lang
+from Elevenyts.helpers import buttons, can_manage_vc
 
 logger = logging.getLogger(__name__)
 
