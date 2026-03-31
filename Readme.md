@@ -117,14 +117,6 @@ bash start
 - `/restart` - Restart the bot
 - `/logs` - Get bot logs
 
-### Customization
-
-- Modify language files in `Elevenyts/locales/`
-- Customize thumbnails and images in `config.py`
-- Adjust queue limits and duration in `config.py`
-
----
-
 ## 📞 Support & Contact
 
 - **Telegram Channel**: [@Elevenyts](https://t.me/elevenyts)
