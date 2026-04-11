@@ -138,3 +138,8 @@ def run():
     app.run(host="0.0.0.0", port=10000)
 
 Thread(target=run).start()
+import importlib
+import glob
+
+for file in glob.glob("bot/plugins/*.py"):
+    importlib.import_module("bot.plugins." + file.split("/")[-1].replace(".py", ""))
