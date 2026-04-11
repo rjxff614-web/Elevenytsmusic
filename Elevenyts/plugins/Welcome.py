@@ -1,4 +1,4 @@
-print("✅ welcome plugin loaded")
+print("WELCOME FILE IMPORTED")
 from pyrogram import Client, filters
 
 # temporary storage (later MongoDB use kar sakte ho)
