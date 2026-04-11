@@ -85,7 +85,7 @@ class Config:
         self.PING_IMG: str = getenv(
             "PING_IMG", "https://files.catbox.moe/43u332.jpg")    # Ping command image
         self.START_IMG: str = getenv(
-            "START_IMG", "https://files.catbox.moe/43u332.jpg")  # Start command image
+            "START_IMG", "https://i.postimg.cc/90Mt4HBK/1775886775239.png")  # Start command image
         self.RADIO_IMG: str = getenv(
             "RADIO_IMG", "https://files.catbox.moe/43u332.jpg")    # Radio command image
 
