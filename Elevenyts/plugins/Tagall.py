@@ -1,9 +1,8 @@
 from pyrogram import filters
-from pyrogram.types import Message
-from bot import app
+from Elevenyts import app
 
 @app.on_message(filters.command(["tagall", "all"]) & filters.group)
-async def tagall(client, message: Message):
+async def tagall(client, message):
 
     members = []
 
