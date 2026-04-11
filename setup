@@ -86,7 +86,7 @@ EOF
 
 
 clear
-pprint "Welcome to the ˹ᴇʟᴇᴠᴇɴʏᴛꜱ ᴍᴜꜱɪᴄ˼ Installation Setup\n\n" "cmagenta"
+pprint "Welcome to the Naruto music Installation Setup\n\n" "cmagenta"
 sleep 1
 
 update
@@ -95,7 +95,7 @@ install_pkg ffmpeg ffmpeg unzip
 install_deno
 install_py
 
-pprint "\n˹ᴇʟᴇᴠᴇɴʏᴛꜱ ᴍᴜꜱɪᴄ˼ Installation Completed.\n" "cgreen"
+pprint "\nNAruto music Installation Completed.\n" "cgreen"
 sleep 2
 clear
 
