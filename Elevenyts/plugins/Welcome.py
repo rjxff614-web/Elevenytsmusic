@@ -1,3 +1,4 @@
+print("✅ welcome plugin loaded")
 from pyrogram import Client, filters
 
 # temporary storage (later MongoDB use kar sakte ho)
