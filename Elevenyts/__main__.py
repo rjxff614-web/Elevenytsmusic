@@ -138,14 +138,3 @@ def run():
     app.run(host="0.0.0.0", port=10000)
 
 Thread(target=run).start()
-from bot import app
-import importlib
-import os
-
-print("MAIN STARTED")
-
-for file in os.listdir("bot/plugins"):
-    if file.endswith(".py"):
-        importlib.import_module(f"bot.plugins.{file[:-3]}")
-
-app.run()
