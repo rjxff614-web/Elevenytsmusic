@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://i.postimg.cc/bNKJvm7X/1775899341390.png" alt="˹NARUTO MUSIC" width="400"/>
   
-  # 🎵 ˹ᴇʟᴇᴠᴇɴʏᴛꜱ ᴍᴜꜱɪᴄ˼
+  # 🎵 Naruto music 
   
   <p><b>A Powerful Telegram Music Player Bot</b></p>
   
