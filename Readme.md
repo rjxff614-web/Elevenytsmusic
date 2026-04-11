@@ -1,12 +1,12 @@
 <div align="center">
-  <img src="https://files.catbox.moe/43u332.jpg" alt="˹NSDAP MUSIC" width="400"/>
+  <img src="https://files.catbox.moe/43u332.jpg" alt="˹NARUTO MUSIC" width="400"/>
   
   # 🎵 ˹ᴇʟᴇᴠᴇɴʏᴛꜱ ᴍᴜꜱɪᴄ˼
   
   <p><b>A Powerful Telegram Music Player Bot</b></p>
   
-  [![Telegram](https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram)](https://t.me/NSDAP_SUPPORT)
-  [![Telegram](https://img.shields.io/badge/Telegram-Support-blue?style=for-the-badge&logo=telegram)](https://t.me/NSDAP_SUPPORT)
+  [![Telegram](https://img.shields.io/badge/Telegram-Channel-blue?style=for-the-badge&logo=telegram)](https://t.me/NARUTO_MUC_SUPPORT)
+  [![Telegram](https://img.shields.io/badge/Telegram-Support-blue?style=for-the-badge&logo=telegram)](https://t.me/NARUTO_MUC_SUPPORT)
   [![Telegram](https://img.shields.io/badge/Telegram-String_Session-Darkblue?style=for-the-badge&logo=telegram)](https://t.me/genStringbot)
   [![Cloudflare](https://img.shields.io/badge/Pinger-Cloudflare-orange?style=for-the-badge&logo=cloudflare)](https://dash.cloudflare.com)
 
@@ -138,8 +138,8 @@ bash start
 
 ## 📞 Support & Contact
 
-- **Telegram Channel**: [@NSDAP_SUPPORT](https://t.me/NSDAP_SUPPORT)
-- **Support Group**: [@NSDAP_SUPPORT_GC](https://t.me/NSDAP_SUPPORT_GC) 
+- **Telegram Channel**: [@NARUTO_MUC_SUPPORT](https://t.me/NARUTO_MUC_SUPPORT)
+- **Support Group**: [@NARUTO_MUC_SUPPORT_GC](https://t.me/NARUTO_MUC_SUPPORT_GC) 
 
 ---
 
