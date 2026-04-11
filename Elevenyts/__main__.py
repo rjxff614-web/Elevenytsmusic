@@ -139,7 +139,8 @@ def run():
 
 Thread(target=run).start()
 import importlib
-import glob
+import os
 
-for file in glob.glob("bot/plugins/*.py"):
-    importlib.import_module("bot.plugins." + file.split("/")[-1].replace(".py", ""))
+for file in os.listdir("bot/plugins"):
+    if file.endswith(".py"):
+        importlib.import_module(f"bot.plugins.{file[:-3]}")
