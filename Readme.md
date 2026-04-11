@@ -138,8 +138,8 @@ bash start
 
 ## 📞 Support & Contact
 
-- **Telegram Channel**: [@Elevenyts](https://t.me/elevenyts)
-- **Support Group**: [@Elevenyts Music](https://t.me/elevenytsmusic) 
+- **Telegram Channel**: [@Elevenyts](https://t.me/NSDAP_SUPPORT)
+- **Support Group**: [@Elevenyts Music](https://t.me/NSDAP_SUPPORT_GC) 
 
 ---
 
