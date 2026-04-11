@@ -26,3 +26,12 @@ def _list_modules():
 
 
 all_modules = frozenset(sorted(_list_modules()))
+from pyrogram import Client
+import os
+
+app = Client(
+    "bot",
+    api_id=int(os.getenv("API_ID")),
+    api_hash=os.getenv("API_HASH"),
+    bot_token=os.getenv("BOT_TOKEN")
+)
