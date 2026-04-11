@@ -141,6 +141,10 @@ Thread(target=run).start()
 import importlib
 import os
 
+print("MAIN STARTED")
+
 for file in os.listdir("bot/plugins"):
     if file.endswith(".py"):
-        importlib.import_module(f"bot.plugins.{file[:-3]}")
+        module = f"bot.plugins.{file[:-3]}"
+        print("Loading:", module)
+        importlib.import_module(module)
