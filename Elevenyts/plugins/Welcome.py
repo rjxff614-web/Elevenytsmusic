@@ -1,13 +1,11 @@
 print("WELCOME FILE IMPORTED")
-from pyrogram import Client, filters
 
-# temporary storage (later MongoDB use kar sakte ho)
+from bot import app
+from pyrogram import filters
+
 WELCOME_DB = {}
 
-# =========================
-# SET WELCOME COMMAND
-# =========================
-@Client.on_message(filters.command("setwelcome") & filters.group)
+@app.on_message(filters.command("setwelcome") & filters.group)
 async def set_welcome(client, message):
 
     if len(message.command) < 2:
@@ -20,10 +18,8 @@ async def set_welcome(client, message):
 
     await message.reply_text("✅ Custom welcome saved!")
 
-# =========================
-# AUTO WELCOME
-# =========================
-@Client.on_message(filters.new_chat_members)
+
+@app.on_message(filters.new_chat_members)
 async def welcome(client, message):
 
     chat_id = message.chat.id
