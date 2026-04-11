@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://files.catbox.moe/43u332.jpg" alt="˹NARUTO MUSIC" width="400"/>
+  <img src="https://i.postimg.cc/bNKJvm7X/1775899341390.png" alt="˹NARUTO MUSIC" width="400"/>
   
   # 🎵 ˹ᴇʟᴇᴠᴇɴʏᴛꜱ ᴍᴜꜱɪᴄ˼
   
