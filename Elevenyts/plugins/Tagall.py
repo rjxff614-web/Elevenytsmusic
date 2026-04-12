@@ -1,5 +1,6 @@
 from pyrogram import filters
 from Elevenyts import app
+import asyncio
 
 @app.on_message(filters.command(["tagall", "all"]) & filters.group)
 async def tagall(client, message):
@@ -10,13 +11,19 @@ async def tagall(client, message):
         if m.user and not m.user.is_bot:
             members.append(m.user.mention)
 
-        if len(members) >= 50:
+        if len(members) >= 400:
             break
 
     if not members:
         return await message.reply_text("❌ No members found")
 
-    text = "🔥 TAG ALL 🔥\n\n"
-    text += " ".join(members)
+    await message.reply_text("🔥 TAGGING STARTED...")
 
-    await message.reply_text(text)
+    chunk_size = 10
+
+    for i in range(0, len(members), chunk_size):
+        chunk = members[i:i+chunk_size]
+        text = "🔥 TAG ALL 🔥\n\n" + " ".join(chunk)
+
+        await message.reply_text(text)
+        await asyncio.sleep(7)
