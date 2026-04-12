@@ -7,7 +7,7 @@ WELCOME_MEDIA = {}
 async def is_admin(client, message):
     try:
         member = await client.get_chat_member(message.chat.id, message.from_user.id)
-        return member.status in ["administrator", "creator"]
+        return member.privileges is not None
     except:
         return False
 
@@ -118,5 +118,5 @@ async def auto_welcome(client, message):
                     await message.reply_animation(media.animation.file_id, caption=text)
             else:
                 await message.reply_text(text)
-        except Exception as e:
-            print("WELCOME ERROR:", e)
+        except:
+            pass
