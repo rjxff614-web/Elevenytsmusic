@@ -27,7 +27,7 @@ async def set_welcome(client, message):
     ):
         media = message.reply_to_message
         WELCOME_MEDIA[chat_id] = media
-        WELCOME_DB[chat_id] = message.text.split(None, 1)[1] if len(message.command) > 1 else ""
+        WELCOME_DB[chat_id] = message.text.split(None, 1)[1] if len(message.command) > 1 else "👋 Welcome {mention}"
         return await message.reply_text("✅ Media welcome saved!")
 
     if len(message.command) < 2:
@@ -97,15 +97,19 @@ async def auto_welcome(client, message):
         group = message.chat.title
         mention = user.mention
 
-        try:
-            text = template.format(
-                first=first,
-                username=username,
-                id=user_id,
-                group=group,
-                mention=mention
-            ) if template else f"👋 Welcome {mention}"
-        except:
+        # 🔥 FIXED PART (IMPORTANT)
+        if template:
+            try:
+                text = template.format(
+                    first=first,
+                    username=username,
+                    id=user_id,
+                    group=group,
+                    mention=mention
+                )
+            except:
+                text = template
+        else:
             text = f"👋 Welcome {mention}"
 
         try:
